@@ -7,8 +7,8 @@
 .container {
   display: grid;
   grid-template-areas:
-    'header header  menu menu box6'
-    'main main right right box6'
+    'header header header  menu box6'
+    'main main main right  box6'
     'footer footer footer footer box6'
 ;
   gap: 10px;
@@ -42,4 +42,7 @@
 .box6{
   width: 100%;
   background-color: purple;
+}
+.textColor{
+  color: #fff;
 }
